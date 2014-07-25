@@ -1,10 +1,10 @@
-/*
- *
- * calc the time ago from a start time in milliseconds
+/**
+ * Angular timeago
+ * calculate the time ago from a start time in milliseconds
  *
  *
  */
-angular.module('iln-timeago', []).
+angular.module('angular-timeago', []).
     directive('ilnTimeago', [
         '$timeout',
         function ( $timeout ) {
